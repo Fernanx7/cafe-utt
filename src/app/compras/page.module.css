@@ -1,0 +1,140 @@
+.shopping {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h1 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .h2{
+    margin-top: 10px;
+  }
+  
+  .cartCont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .items {
+    width: 65%;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .item-info {
+    flex: 1;
+  }
+  
+  .items-price { /* Asegúrate de que esta clase se usa en tu HTML */
+    text-align: right;
+  }
+  
+  .resumen {
+    width: 25%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .coupon {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #coupon-button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .totals {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; /* Asegura que el texto y el precio estén alineados en la misma línea base */
+  }
+
+  .total-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  .span {
+    float:right;
+    font-size: 1.2em;
+  }
+  
+  .checkbutton {
+    width: 100%;
+    padding: 10px;
+    background-color: #d10024;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  .checkbutton:hover {
+    background-color: #a8001b;
+  }
+  
+  .pagos {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagos img {
+    width: 50px;
+    margin: 0 10px;
+  }
+  
+  /* Media query para pantallas pequeñas (hasta 768px) */
+  @media (max-width: 768px) {
+    .shopping { 
+      padding: 10px;
+      width: 95%; /* La imagen ocupará todo el ancho de la pantalla */
+    }
+  
+    .cartCont {
+      flex-direction: column;
+    }
+  
+    .items,
+    .resumen {
+      width: 89%;
+      margin-bottom: 20px;
+    }
+  
+    .item img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .pagos img {
+      width: 40px;
+      margin: 5px;
+    }
+  }
+  

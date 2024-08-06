@@ -1,0 +1,77 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: none;
+  }
+  
+  .menuitem {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin: 10px; /* Margen exterior para crear espacio entre elementos */
+    padding: 5px;
+    min-height: 120px;
+    width: 43vw; /* Ocupa el 50% del ancho de la ventana gráfica */
+  }
+  
+  .menuitem:hover {
+    transform: scale(1.05);
+  }
+  
+  .imgp {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+  }
+
+.h3 {
+    margin: 0;
+    color: #007bff; 
+    font-size: 1.2em;
+    font-weight: bold; /* Texto en negrita */
+}
+.p {
+    margin: 7px 0 0 0; /* Margen superior e inferior pequeño */
+    font-size: 0.9em;
+    color: #333; /* Color de texto más oscuro para la descripción */
+}
+.b {
+    font-weight: bold;
+    color: #d32f2f;
+    font-size: 1.1em; /* Precio ligeramente más grande */
+    margin-top: auto; /* Empuja el precio hacia abajo */
+}
+
+.t{
+  text-decoration: none;
+  color: inherit;
+}
+
+.modal-show {
+    display: block;
+}
+
+.dialog {
+    width: 80%;
+    max-width: 900px;
+    border: none;
+    padding: 0 0 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: fixed;
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.69);
+}
+
+@media (max-width: 768px) { /* Ajusta el valor según el ancho de pantalla deseado */
+  .box {
+    flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+  }
+
+  .menuitem {
+    width: calc(100% - 20px); /* Ocupa todo el ancho en pantallas pequeñas */
+  }
+}

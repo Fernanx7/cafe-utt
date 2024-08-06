@@ -1,0 +1,327 @@
+/* Estilos base (aplicados en todas las pantallas) */
+.body {
+    font-family: "Arial", sans-serif; /* Elige una fuente adecuada */
+    margin: 0;
+  }
+  
+  .ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Color de fondo del menú */
+    color: white; /* Color del texto del menú */
+    padding: 10px 20px;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Logo-principal {
+    max-width: 50px; /* Ajusta el tamaño del logo */
+    margin-right: 10px;
+  }
+  
+  .project {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .right-section {
+    display: flex;
+  }
+  
+  .right-section li {
+    margin-left: 20px;
+  }
+  
+  .icon-nav {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .carrito {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .boxx {
+    display: flex;
+    background-color: #FAF4E4;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px; /* Añade padding para separar el contenido */
+  }
+  
+  .portada {
+    height: auto;
+    max-width: 50%;
+    border-radius: 2%;
+    object-fit: cover;
+    margin-right: 20px; /* Añade margen a la derecha de la imagen */
+    float: left;
+  }
+  
+  .h1-1 {
+    text-align: center;
+  }
+  
+  .h1-2 {
+    text-align: left;
+  }
+  
+  .special {
+    display: flex;
+    flex-direction: column; /* Apilar elementos verticalmente en pantallas pequeñas */
+    align-items: center;
+    background-color: #FAF4E4;
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+  
+  .s-title {
+    margin: 10px 0;
+  }
+  
+  .s-desc {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .imgs {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .menu {
+    background-color: #FAF4E4;
+    display: flex;
+    flex-direction: row; /* Diseño en fila por defecto */
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .menu > div {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  .menu img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .menu h6 {
+    margin: 10px 0;
+  }
+  
+  .menu p {
+    margin: 0;
+  }
+  
+  .h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+  }
+  
+  .p {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 95%;
+  }
+  
+  .fav {
+    background-color: #FAF4E4;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row; /* Diseño en fila por defecto */
+    justify-content: space-around;
+    align-items:center;
+    border-radius: 10px;
+  }
+  
+  .fav1,
+  .fav2,
+  .fav3 {
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .image1 {
+    height: 300px; /* O el valor que prefieras */
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .namee {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .bm {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bm:hover {
+    background-color: rgb(220, 200, 21);
+  }
+  
+  .bm:active {
+    background-color: rgb(164, 157, 92);
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .contactos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+  }
+  
+  .contactos div {
+    flex: 1;
+    margin: 5px;
+  }
+  
+  .h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  .ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ul li {
+    margin: 3px 0;
+  }
+  
+  .ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social ul li {
+    margin: 0 5px;
+  }
+  
+  .social img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  /* Media query para pantallas pequeñas (hasta 768px) */
+  @media (max-width: 768px) {
+    .ul {
+      flex-direction: column; /* Apila elementos verticalmente */
+    }
+  
+    .left-section,
+    .right-section {
+      width: 100%;
+      justify-content: center; /* Centra los elementos horizontalmente */
+      margin-bottom: 10px; /* Añade espacio entre las secciones */
+    }
+  
+    .right-section li {
+      margin: 5px 0; /* Ajusta el margen de los elementos del menú */
+    }
+  
+    .boxx {
+      flex-direction: column; /* Apila imagen y texto verticalmente */
+    }
+  
+    .portada {
+      max-width: 100%; /* La imagen ocupa todo el ancho */
+      margin: 0 0 20px 0; /* Margen inferior para separar de texto */
+    }
+  
+    .h1-2 {
+        margin-left: 0; /* Elimina el margen izquierdo del texto */
+      }
+    
+      .special {
+        flex-direction: column; /* Apilar imagen y texto verticalmente */
+      }
+    
+      .image-special {
+        width: 100%; /* La imagen ocupa todo el ancho */
+        margin-bottom: 20px;
+      }
+    
+      .s-desc {
+        max-width: 100%; /* El texto ocupa todo el ancho */
+      }
+    
+      .fav {
+        flex-direction: column; /* Apilar elementos verticalmente */
+      }
+    
+      .alinear {
+        width: 90%; /* Ancho de cada elemento en pantallas pequeñas */
+        margin-bottom: 20px; /* Añade espacio entre los elementos */
+      }
+    
+      .contactos {
+        flex-direction: column; /* Apilar secciones verticalmente */
+      }
+    
+      .contactos div {
+        margin-bottom: 20px; /* Espacio entre secciones apiladas */
+      }
+    }
+      
